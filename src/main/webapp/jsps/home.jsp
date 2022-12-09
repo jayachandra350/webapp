@@ -9,9 +9,14 @@
 </head>
 </head>
 <body>
+	<div style="background-color: blue;">
+
 <h1 align="center">Welcome to DevOps Technologies. Bengaluru,Karnataka </h1>
 <h1 align="center"> This web application modified by Govardhan from DevOps Technologies</h1>
+</div>
 <hr>
+<div style="background-color: orchid;">
+
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
 
@@ -28,11 +33,12 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <h1><h3> Client Side IP Address </h3><br>
 <%out.print( "Client IP Address :: " + request.getRemoteAddr() ); %><br>
 <%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
+</div>
 <hr>
 <div style="text-align: center;">
-	<div style="background-color: navy;">
+	<div style="background-color: yellow;">
 	<span>
-		<img src="images/mylogo.jpg" alt="" width="100">
+		<img src="images/mylogo.jpg" alt="" width="200">
 	</span>
 	<span style="font-weight: bold;">
 		DevOps Technologies, 
@@ -46,9 +52,13 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	</div>
 </div>
 <hr>
+<div style="background-color: lightskyblue;">
+
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
+		</div>
 <hr>
 <hr>
+<div style="background-color: ;"></div>
 <p align=center>DevOps Technologies - Consultantancy, Service Provider, Development Center.</p>
 <p align=center><small>Copyrights 2022 by <a href="http://DevOpsTechnologies.com/">DevOps Technologies,Bengaluru</a> </small></p>
 
