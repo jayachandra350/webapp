@@ -30,6 +30,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
 <hr>
 <div style="text-align: center;">
+	<div style="background-color: navy;">
 	<span>
 		<img src="images/mylogo.jpg" alt="" width="100">
 	</span>
@@ -42,6 +43,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<br>
 		<a href="mailto:govardhan34445@gmail.com">Mail to to DevOps Technologies</a>
 	</span>
+	</div>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
